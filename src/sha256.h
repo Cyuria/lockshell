@@ -3,10 +3,6 @@
 #include <stdint.h>
 #include <string.h>
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /*
  * @brief Size of the SHA-256 sum. This times eight is 256 bits.
  */
@@ -95,6 +91,3 @@ void sha_256_write(struct Sha_256 *sha_256, const void *data, size_t len);
  */
 uint8_t *sha_256_close(struct Sha_256 *sha_256);
 
-#ifdef __cplusplus
-}
-#endif

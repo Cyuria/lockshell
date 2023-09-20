@@ -1,5 +1,5 @@
-// Lockshell Source Code - Copyright Cyuria 2023 (c)
-// See LICENSE.txt for more information
+// Lockshell Source Code - Copyright (c) 2023 Cyuria
+// See LICENSE for more information
 
 #include <signal.h>
 #include <stdio.h>
